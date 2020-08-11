@@ -50,6 +50,6 @@ def turn(board)
      move(board, index)
      display_board(board)
    else
-     turn
+     turn(board)
   end
 end
