@@ -30,6 +30,7 @@ def move(board, index, player)
   board[index] = player
   return board
 end
+
 def turn_count(board)
   counter = 0
   board.each do |spaces|
