@@ -53,5 +53,5 @@ def turn(board)
      move(board, index, current_player(board))
      turn(board)
    end
- display_board
+ display_board(board)
 end
