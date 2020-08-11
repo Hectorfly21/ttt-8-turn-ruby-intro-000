@@ -37,6 +37,7 @@ def turn_count(board)
     if spaces == "X" || spaces == "O"
       counter += 1
     end
+  end
   counter
 end
 
